@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9e1ca43a-c33a-46d9-8802-300ae1337881}</ProjectGuid>
+    <ProjectGuid>{bdcf3e1a-1056-4a48-abca-a42b4298e452}</ProjectGuid>
     <RootNamespace>AdvHDGuid</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -72,11 +72,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -141,40 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="include\lapi.c" />
-    <ClCompile Include="include\lauxlib.c" />
-    <ClCompile Include="include\lbaselib.c" />
-    <ClCompile Include="include\lbitlib.c" />
-    <ClCompile Include="include\lcode.c" />
-    <ClCompile Include="include\lcorolib.c" />
-    <ClCompile Include="include\lctype.c" />
-    <ClCompile Include="include\ldblib.c" />
-    <ClCompile Include="include\ldebug.c" />
-    <ClCompile Include="include\ldo.c" />
-    <ClCompile Include="include\ldump.c" />
-    <ClCompile Include="include\lfunc.c" />
-    <ClCompile Include="include\lgc.c" />
-    <ClCompile Include="include\linit.c" />
-    <ClCompile Include="include\liolib.c" />
-    <ClCompile Include="include\llex.c" />
-    <ClCompile Include="include\lmathlib.c" />
-    <ClCompile Include="include\lmem.c" />
-    <ClCompile Include="include\loadlib.c" />
-    <ClCompile Include="include\lobject.c" />
-    <ClCompile Include="include\lopcodes.c" />
-    <ClCompile Include="include\loslib.c" />
-    <ClCompile Include="include\lparser.c" />
-    <ClCompile Include="include\lstate.c" />
-    <ClCompile Include="include\lstring.c" />
-    <ClCompile Include="include\lstrlib.c" />
-    <ClCompile Include="include\ltable.c" />
-    <ClCompile Include="include\ltablib.c" />
-    <ClCompile Include="include\ltm.c" />
-    <ClCompile Include="include\lundump.c" />
-    <ClCompile Include="include\lutf8lib.c" />
-    <ClCompile Include="include\lvm.c" />
-    <ClCompile Include="include\lzio.c" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lua.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

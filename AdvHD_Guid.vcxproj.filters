@@ -18,104 +18,10 @@
     <ClCompile Include="main.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="include\lauxlib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lapi.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lbaselib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lbitlib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lcode.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lcorolib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lctype.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\ldblib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\ldebug.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\ldo.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\ldump.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lfunc.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lgc.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\linit.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\liolib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\llex.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lmathlib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lmem.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\loadlib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lobject.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lopcodes.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\loslib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lparser.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lstate.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lstring.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lstrlib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\ltable.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\ltm.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lundump.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lutf8lib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lvm.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\lzio.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="include\ltablib.c">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lua.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
